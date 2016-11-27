@@ -1,0 +1,38 @@
+Nous avons pris la decision de mettre deux archives :
+- une contenant la totalité du projet (nom  du dossier : projet)
+- une deuxieme archive contenant tout le projet le redimensionnement et le deplacement de la fenetre (nom du dossier : projetSansLag)
+
+/!\ POUR SANS LAG /!\
+Attention pensez à rajouter le fichier libeibase.a dans _x11 !! (Sinon l'archive etait trop lourde pour etre envoyée)
+
+Les applications testées
+- frame
+l'application frame nous a permis de tester le dessin des frames, l'ecriture des textes dans le frame et l'affichage des images sur une frame.
+
+- button
+
+Concernant le dessin des boutons nous avons testé le positionnement, la taille l'ecriture des textes sur le bouton, par contre on a pu tester le dessin des images sur le bouton.
+
+- hello_world
+
+l'application hello_world nous a permis de tester le dessin des toplevels, le bouton de fermeture de la fenetre et la frame de redimensionnement.
+
+Concernant les evenements nous avons pris le temps de tester les bind, et unbind, vérifier que ces derniers étaient valables pour les widgets mais aussi pour les widgets représentés par des tags (ou all). 
+
+- puzzle
+
+Le jeu de puzzle se joue très bien, neanmoins à cause des images lourde et du fait que notre affichage graphiqur ne soit pas totalement optimisé malgré nos efforts, le deplacement de la fenetre et le redimensionnement possède quelques latences.
+
+- minesweeper
+
+Le jeu fonctionne normalement on a pu jouer et aller jusqu'au bout sans problème, le reset marche egalement et l'affichage semble cohérent.
+
+- pofinet
+
+Nous avons rajouté une application pofinet permettant de verifier que les objets ne depassent pas du clipper.
+
+- autre tests frame
+
+Vous pouvez également remarquer que nous avons créés plein d'autres tests pour regarder si le placeur positionnait l'objet au bon endroit.
+
+

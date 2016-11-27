@@ -1,0 +1,10 @@
+# Fichiers générés lors de la compilation
+*.o
+
+# Fichiers de sauvegarde créés par certains éditeurs
+# Emacs
+*~
+\#*#
+
+# Vi
+.*.swp
